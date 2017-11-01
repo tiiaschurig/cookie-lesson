@@ -60,17 +60,10 @@ body {
   position: relative;
 }
 
-.lemon-cookies h1, .sugar-cookies h1, .chocolate-cookies h1 {
-  position: absolute;
-  bottom: 0;
-  margin-left: 35%;
-  margin-bottom: 55px;
-}
-
 .lemon-cookies p, .sugar-cookies p, .chocolate-cookies p {
   position: absolute;
   bottom: 0;
-  margin-left: 15%;
+  margin-left: 10%;
   margin-bottom: 30px;
 }
 
@@ -86,7 +79,7 @@ body {
   margin-bottom: 10px;
 }
 
-span {
+.color {
   color: white;
 }
 

@@ -1,8 +1,10 @@
 var lemQuant = Cookies.get("lemon");
-console.log(lemQuant)
+if (lemQuant) {
+  alert("you ordered a lemon cookie!");
+}
 
 function setCookie () {
-  var lemQuant = document.getElementsByClassName("lemon").value;
+  var lemQuant = document.getElementById("lemon-order").value;
   Cookies.set("lemon", lemQuant);
 }
 document.getElementById("lemon-order").addEventListener("click", setCookie);
