@@ -1,0 +1,99 @@
+body {
+  font-family: "Ariel", sans-serif;
+  background-color: pink;
+}
+
+.header {
+  font-size: 45px;
+  color: pink;
+  background-color: white;
+  width: 100%;
+  padding: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.first {
+  font-size: 30px;
+  width: 900px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.wrapper {
+  width: 1075px;
+  margin: 0 auto;
+}
+
+.lemon-cookies {
+  float: left;
+  width: 30%;
+  height: 500px;
+  padding: 15px;
+  background-image: url(lemon.jpg);
+  background-position: center;
+  position: relative;
+  margin-right: 5px;
+}
+
+.sugar-cookies {
+  float: left;
+  width: 30%;
+  height: 500px;
+  padding: 15px;
+  background-image: url(sugar.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-right: 5px;
+}
+
+.chocolate-cookies {
+  float: left;
+  width: 30%;
+  height: 500px;
+  padding: 15px;
+  background-image: url(chocolate.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.lemon-cookies h1, .sugar-cookies h1, .chocolate-cookies h1 {
+  position: absolute;
+  bottom: 0;
+  margin-left: 35%;
+  margin-bottom: 55px;
+}
+
+.lemon-cookies p, .sugar-cookies p, .chocolate-cookies p {
+  position: absolute;
+  bottom: 0;
+  margin-left: 15%;
+  margin-bottom: 30px;
+}
+
+.lemon-cookies button, .sugar-cookies button, .chocolate-cookies button {
+  position: absolute;
+  bottom: 0;
+  margin-left: 35%;
+  margin-bottom: 2%;
+}
+
+.clearfix {
+  clear: both;
+  margin-bottom: 10px;
+}
+
+span {
+  color: white;
+}
+
+.last {
+  font-size: 30px;
+  width: 900px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  color: white;
+}
